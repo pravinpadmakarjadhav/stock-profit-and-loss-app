@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Profit-Loss Calculator</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-section">
+      <header><h1>Stock Profit-Loss Calculator</h1></header>
+      <label class="input-label" for="initial-price"
+        >Initial Price (₹):
+        <input
+          class="input"
+          id="initial-price"
+          type="number"
+          placeholder="Enter Purchase Price of Stock"
+          required
+      /></label>
+      <label class="input-label" for="stock-quantity"
+        >Stock Quantity :
+        <input
+          class="input"
+          id="stock-quantity"
+          type="number"
+          placeholder="Enter Quantity of Stock"
+          required
+      /></label>
+      <label class="input-label" for="current-price"
+        >Current Price (₹):
+        <input
+          class="input"
+          id="current-price"
+          type="number"
+          placeholder="Enter Current Price of Stock"
+          required
+      /></label>
+      <button id="submit-btn" class="btn-check">Check !!</button>
+      <div id="output-box" class="output"></div>
+      <section id="footer">
+        <footer>
+          <ul>
+            <li class="footerLink">
+              <a href="https://github.com/MauliMogal" target="_blank">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="footerLink">
+              <a href="https://twitter.com/MauliMogal" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="footerLink">
+              <a href="https://www.linkedin.com/in/maulimogal/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="footerLink">
+              <a href="https://www.maulimogal.com/" target="_blank">
+                <i class="fas fa-briefcase"></i>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legacyText">© 2021 | Mauli Mogal</div>
+        </footer>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
